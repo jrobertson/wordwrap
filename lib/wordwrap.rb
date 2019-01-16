@@ -26,8 +26,17 @@ class WordWrap
 
     end
 
+    @a = a
     @to_s = a.join("\n")
 
+  end
+  
+  def each_line(&blk)
+    @a.each(&blk)
+  end
+
+  def to_a()
+    @a
   end
 
 end

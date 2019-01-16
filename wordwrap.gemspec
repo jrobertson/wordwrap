@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'wordwrap'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'Wrap words easily e.g. WordWrap.new("Some long line you want to shorten into shorter lines", 32) => returns the string with new line characters on or before the 32 character limit.'
   s.authors = ['James Robertson']
   s.files = Dir['lib/wordwrap.rb']
